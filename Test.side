@@ -1,0 +1,264 @@
+{
+  "id": "f65a8e32-3567-479a-85e1-0b232dda4b66",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://app.respond.io/organization/241400/spaces",
+  "tests": [{
+    "id": "e1eedcfc-a147-478f-83ac-ee9fd8b53ebf",
+    "name": "SignIn-2",
+    "commands": [{
+      "id": "a2c80543-4231-4c87-9849-d075dd4010b9",
+      "comment": "",
+      "command": "open",
+      "target": "/user/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9961c79-edf7-45e5-9298-6d7efaa57f0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1056x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc4cb42c-2855-463a-b5ce-44cf698f39ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["name=field_2", "name"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//div[@id='authContainer']/div/div[2]/div/div/form/div[3]/div/div/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e10d183-0b20-469c-b2b4-214b8ee931a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["name=field_2", "name"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//div[@id='authContainer']/div/div[2]/div/div/form/div[3]/div/div/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "ayesha.sajjad@live.com"
+    }, {
+      "id": "c7870800-3101-4a2e-8c76-754b48d27cad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dls-h-icon-md > path",
+      "targets": [
+        ["css=.dls-h-icon-md > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f440e401-9e4c-45e2-84b0-12774042a1c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["name=field_3", "name"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//div[@id='authContainer']/div/div[2]/div/div/form/div[3]/div[2]/div/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2594aded-c104-437b-8d39-9ae51101a306",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["name=field_3", "name"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//div[@id='authContainer']/div/div[2]/div/div/form/div[3]/div[2]/div/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "Eternity2life@123"
+    }, {
+      "id": "6a1b34c3-f0cd-4c22-930f-f57e30d8f647",
+      "comment": "",
+      "command": "click",
+      "target": "css=.disabled\\3A dls-cursor-not-allowed",
+      "targets": [
+        ["css=.disabled\\3A dls-cursor-not-allowed", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='authContainer']/div/div[2]/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a38a0f-6294-4ea7-a37c-9ff84b4ae1d4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "651a645f-c83d-4877-a0a9-a403555fe19b",
+    "name": "Add_New_Workspace",
+    "commands": [{
+      "id": "489eadd7-afd0-41a8-8c6a-29c974679568",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.respond.io/user/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5e4c50e-7d88-40de-83a1-297d47a07c74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d3a7a39-c39e-4de3-b6f0-f95413ecf508",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-list-item:nth-child(5) .dls-truncate",
+      "targets": [
+        ["css=.v-list-item:nth-child(5) .dls-truncate", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/a[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//a[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Workspaces')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc1aebbb-1d9d-4202-baf6-caaa26c7c1e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dls-flex:nth-child(1) > .dls-shrink .dls-txt-button > span",
+      "targets": [
+        ["css=.dls-flex:nth-child(1) > .dls-shrink .dls-txt-button > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div/div/div/button/span[3]/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button/span[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89d09df8-6f7c-4046-bfe2-810ec4206947",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.v-overlay__scrim",
+      "targets": [
+        ["css=.v-overlay__scrim", "css:finder"],
+        ["xpath=//div[7]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d666a06-927c-488d-86ad-883f6533f24b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-120",
+      "targets": [
+        ["id=input-120", "id"],
+        ["name=field_7", "name"],
+        ["css=#input-120", "css:finder"],
+        ["xpath=//input[@id='input-120']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfd37925-aca2-4d08-acd1-b1e3221cb199",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-120",
+      "targets": [
+        ["id=input-120", "id"],
+        ["name=field_7", "name"],
+        ["css=#input-120", "css:finder"],
+        ["xpath=//input[@id='input-120']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "Test_Workspace_1"
+    }, {
+      "id": "4a82691c-a52e-45de-ac8f-88b8a00a2434",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(3) .dls-txt-button",
+      "targets": [
+        ["css=.v-btn:nth-child(3) .dls-txt-button", "css:finder"],
+        ["xpath=//button[2]/span[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab799fcc-22c4-4ac2-980d-1ebcb433a762",
+      "comment": "",
+      "command": "click",
+      "target": "css=.float-end .dls-txt-button",
+      "targets": [
+        ["css=.float-end .dls-txt-button", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div/button/span[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "08db9a57-a27a-400f-87a8-339f8d765ce1",
+    "name": "Sign_Out",
+    "commands": [{
+      "id": "8dc1347d-c537-489a-a31c-4e978cef9482",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.respond.io/organization/241400/spaces",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09f7342d-e620-4df9-a4c4-115e74557a87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab56a28d-4292-42af-a004-da15146f0514",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-avatar > #isax-bold",
+      "targets": [
+        ["css=.v-avatar > #isax-bold", "css:finder"],
+        ["xpath=(//i[@id='isax-bold'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/nav/div/div[2]/div/div/div/div/i", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2fd1881-2ae9-4286-8ec3-f13e03760ced",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-list-item:nth-child(8) .multi-line > .dls-txt-button",
+      "targets": [
+        ["css=.v-list-item:nth-child(8) .multi-line > .dls-txt-button", "css:finder"],
+        ["xpath=//div[6]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce3bfcbd-a682-4b8a-b292-2e28b97068cd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a5a3bbc3-0da2-4666-8cdd-d57281b573e0",
+    "name": "Respond.io_TestCases",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e1eedcfc-a147-478f-83ac-ee9fd8b53ebf", "651a645f-c83d-4877-a0a9-a403555fe19b", "08db9a57-a27a-400f-87a8-339f8d765ce1"]
+  }],
+  "urls": ["https://app.respond.io/", "https://app.respond.io/user/user-profile"],
+  "plugins": []
+}
